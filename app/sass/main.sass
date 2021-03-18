@@ -1,0 +1,194 @@
+body
+  font-family: 'Playfair Display', serif
+  font-weight: 500
+  overflow-x: hidden
+  padding: 0
+  margin: 0
+img
+  width: 100%
+ul
+  list-style-type: none
+button:focus
+  outline: none
+.rub
+  font-family: 'PT Sans', sans-serif
+
+
+
+  //HEADER START
+.header-menu
+  position: fixed
+  transition: 1s
+  z-index: 50
+  padding: 15px 0px
+  width: 100%
+.header-menu-link
+  color: #ffffff
+  padding: 7px
+  @media screen and (max-width: 992px)
+    font-size: 15px
+  @media screen and (max-width: 874px)
+    font-size: 13px
+  @media screen and (max-width: 785px)
+    font-size: 11px
+  @media screen and (max-width: 500px)
+    font-size: 7px
+.header-menu-link:hover
+  color: #bfbfbf
+  transition: .4s
+.background-dark
+  background-color: #22252a
+  transition: 1s
+.social-icon:hover
+  filter: invert(30%)
+  transition: .4s
+.social-icon
+  display: inline-block
+  margin-left: 10px
+
+
+
+
+
+//MAIN START
+//блок со стартовой картинкой
+.bg-main
+  background-image: url("../images/bg-main.png")
+  background-color: #22252b
+  background-repeat: no-repeat
+  background-size: cover
+  height: 608px
+  @media screen and (max-width: 991px)
+    background-position: 45%, 0
+  @media screen and (max-width: 500px)
+    background-position: 55%, 0
+.text-warning:hover
+  color: #a27b12!important
+.logo
+  margin-top: 10%
+  @media screen and (max-width: 991px)
+    margin-top: 20%
+    font-size: 13px
+  @media screen and (max-width: 675px)
+    margin-top: 40%
+.logo>nav>a>img
+  @media screen and (max-width: 500px)
+    width: 40%
+    margin-top: 100%
+
+//блок с новинками
+.new-ad
+  width: 30%
+  color: #ffffff
+  padding: 6px
+  background-color: #e93f33
+  text-align: center
+  transform: rotate(-45deg) translate(-35%, -50%)
+  box-shadow: 0 0 20px rgba(0,0,0,0.5)
+  @media screen and (max-width: 500px)
+    transform: rotate(-45deg) translate(-25%, -30%)
+.new-block
+  @media screen and (max-width: 675px)
+    font-size: 11px
+
+
+//блок с инструкцией
+.list-instruction
+  padding-left: 0
+  line-height: 300%
+  @media screen and (max-width: 675px)
+    font-size: 11px
+    line-height: 230%
+.list-instruction li:last-child
+  padding-left: 10%
+  line-height: 1.5
+
+//блок с таблицей цен
+.table-price
+  border-color: #f8c333
+  text-align: center
+  width: 60%
+.table-price > tbody > tr> th,
+.table-price > tbody > tr> td
+  padding: 2%
+  @media screen and (max-width: 675px)
+    font-size: 11px
+.table-price-btn-order
+  background-color: black
+  border: solid 1px black
+  color: #ffffff
+  padding: 5px 15px
+.table-price-btn-order:hover
+  filter: invert(100%)
+  transition: .5s
+.table-price-btn-cash
+  background-color: transparent
+  border: 1px solid black
+.table-price-btn-cash:focus
+  border: 1px solid #f8c333
+
+//карточки с пакетами услуг
+.card
+  border: 3px solid #e6e6e6
+  padding: 30px
+  font-size: 100%
+  @media screen and (max-width: 992px)
+    font-size: 80%
+.card:hover
+  box-shadow: 0 0 20px rgba(0,0,0,0.3)
+  border: 3px solid #bfbfbf
+.strikethrough
+  position: relative
+  font-size: 140%
+.strikethrough:before
+  border-bottom: 2px solid red
+  position: absolute
+  content: ""
+  width: 40%
+  height: 50%
+  transform: rotate(-7deg) translateX(-20%)
+.card-btn
+  border: 1px solid #dd3c3c
+  background-color: #dd3c3c
+  color: #ffffff
+  padding: 4% 25%
+
+//блок с примером работы с клиентом
+.gallery
+  text-align: center
+  padding-bottom: 2.5rem
+.gallery-text
+  text-align: left
+  margin-top: 38%
+  font-weight: 400
+  @media screen and (max-width: 1130px)
+    font-size: 90%
+.gallery-img
+  max-width: 70%
+  height: auto
+
+
+
+
+
+//FOOTER START
+.btn-up
+  border: 1px solid #ffffff
+  background-color: transparent
+  color: #ffffff
+  padding: 5px 10px
+.footer-info
+  color: #ffffff
+  font-weight: 400
+.footer-info>*
+  display: block
+.link-footer
+  text-decoration: none
+  font-weight: 400
+  color: white
+.link-footer:hover
+  color: #bfbfbf
+
+
+
+
